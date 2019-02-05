@@ -2,20 +2,85 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+ 
+    <div id="screen1">
+
+      <center> <h1>¡Bienvenido!<h1>
+      <img src="/home/laboratoria/G-Lab/proyect1/letter1.png" width="200"
+         height="200">
+      <br>
+      <h4>En esta aplicación podrás cifrar y decifrar<br> mensajes y textos para compartir <br>secretos con tus amigos.</h4>
+    <button id="enter" onClick="toggleVisibility(screen2,screen1)">Entrar</button>
+
     </div>
+<!----------------------------------------------------------------------------------------------------->    
+<!--Pantalla 2-->
+
+<div id= "screen2" style="display: none">
+
+ <center><h1>Nuevo<br>Mensaje<h1>
+  
+  <h4>¿Qué deseas hacer?</h4>
+ <br>
+ <pre><i>Cifrar🔒        Decifrar🗝<i></pre> 
+ <br>
+ <label class="checkeable">
+   <input type="checkbox" name="cifrar">
+    <img src="/home/laboratoria/G-Lab/proyect1/padlock.png" width="100" height="100"/>
+  </label>
+  <label class="checkeable">
+    <input type="checkbox" name="decifrar">
+      <img src="/home/laboratoria/G-Lab/proyect1/key1.png" width="100"height="100"/>
+</label>
+  <!--    <img src="/home/laboratoria/G-Lab/proyect1/padlock.png" width="100"
+         height="100">
+      <img src="/home/laboratoria/G-Lab/proyect1/key.png" width="100"
+         height="100">-->
+<br>
+<h4>Selecciona tu Código</h4>
+    <div id="navegador">
+     <input type="text" id="number" placeholder="Ingresa un número">
+      <!--<ul>
+        <li><input type="checkbox" id="code1" value=1>código I</input></li>
+        <li><a href="#">código II</a></li>
+        <li><a href="#">código III</a></li>
+        <li><a href="#">código IV</a></li>-->
+    </div> 
+  
+<br>
+ </ul>  <button id="go" onClick="toggleVisibility(screen2,screen3)">Comenzar</button>
+   <!--   <select>
+
+          <option>codigo 1 </option>
+          <option>codigo 2</option>
+          <option>codigo 3</option>
+
+      </select> -->
+   <!--   <div style="width:150px;height:200px;overflow:auto;">-->
+</div>  
+<!----------------------------------------------------------------------------------------------------->    
+<!--Pantalla 3-->    
+
+<div id="screen3" style="display: none;">
+  <br>
+  <br>
+ <center>
+    <input type="text" id="input" placeholder="Ingresa tu texto aquí">
+    <button id="cifrar" onClick="encode">Cifrar</button>
+    <br>
+    <br>
+    <input type="text" id="output" placeholder="Aqui aparecera el texto cifrado">
+   <!-- <button id="descifrar">Descifrar</button>-->
+ </center>
+</div>
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
-
-<html1>
-  <head>
-     <title size= 23>
-       "¡Bienvenido!" 
-     </title>

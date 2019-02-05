@@ -1,0 +1,41 @@
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 5px 0 0;
+}
+#navegador li a {
+   padding: 1px 6px 1px 6px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.checkeable input {
+  display: none;
+}
+.checkeable img {
+  width: 100px;
+  border: 1.5px solid transparent;
+  margin: 0 5px 0 0;
+  padding: 25px 25px 25px 25px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+.checkeable input {
+  display: none;
+}
+.checkeable input:checked  + img {
+  border-color: gray;
+}
