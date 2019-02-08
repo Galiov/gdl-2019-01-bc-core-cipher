@@ -1,41 +1,47 @@
-#navegador ul{
-   list-style-type: none;
-   text-align: center;
+body {
+  background-image: url("/home/laboratoria/G-Lab/proyect1/letters.jpg");
+  height:100; 
+  min-height:100;
 }
 
-#navegador li{
-   display: inline;
-   text-align: center;
-   margin: 0 5px 0 0;
-}
-#navegador li a {
-   padding: 1px 6px 1px 6px;
-   color: #666;
-   background-color: #eeeeee;
-   border: 1px solid #ccc;
-   text-decoration: none;
-}
-#navegador li a:hover{
-   background-color: #333333;
-   color: #ffffff;
-}
-
-.checkeable input {
-  display: none;
-}
-.checkeable img {
-  width: 100px;
-  border: 1.5px solid transparent;
-  margin: 0 5px 0 0;
+div {
+  text-align: center;
+  width: 40%;
+/*  margin: 50px 350px;*/
+  margin: auto;
   padding: 25px 25px 25px 25px;
-  color: #666;
-  background-color: #eeeeee;
-  border: 1px solid #ccc;
-  text-decoration: none;
+  background-color: rgba(240, 240, 240, 0.8);
 }
-.checkeable input {
-  display: none;
+
+p.big{
+  font-size: 3.5vw;
+  color: rgba(104, 50, 71);
 }
-.checkeable input:checked  + img {
-  border-color: gray;
+button {
+  color: rgba(68, 119, 88);
+}
+
+#welcomeText{
+  color: rgba(0, 0, 42);
+
+}
+#offsetNumber{
+  text-align: center;
+  width: 30%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 12px 2px 12px 2px;
+}
+#note{
+  font-size: 0.75em;
+  color: tomato;
+}
+
+#input,#output {
+  width: 60%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
 }

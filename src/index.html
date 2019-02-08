@@ -2,47 +2,57 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-
+ <!-- <body>-->
   <body>
- 
-  <div id="screen1">
+  <div id="screen1" style="display: block">
 
-      <center> <h1>¡Bienvenido!</h1>
-      <img src="/home/laboratoria/G-Lab/proyect1/letter1.png" width="200"
-         height="200">
+      <center><p class="big">¡Bienvenido!</p>
+      <img src="/home/laboratoria/G-Lab/proyect1/letter1.png" width="45%">
       <br>
-      <h4>En esta aplicación podrás cifrar y decifrar<br> mensajes y textos para compartir <br>secretos con tus amigos.</h4></center>
+      <p id="welcomeText">En esta aplicación podrás cifrar y decifrar<br> mensajes y textos para compartir <br>secretos con tus amigos.</p>
+      <button id="enter">Entrar</button></center>
+
   </div>
 <!----------------------------------------------------------------------------------------------------->    
 <!--Pantalla 2-->
 
-<div id= "screen2">
+<div id= "screen2" style="display: none">
 
- <center><h1>Nuevo<br>Mensaje</h1>
-  
-  <h4>¿Qué deseas hacer?</h4>
+ <center><p class="big">Nuevo Mensaje</p>
+ <img src="/home/laboratoria/G-Lab/proyect1/write2.png" width="40%">
+<!--  <h4>¿Qué deseas hacer?</h4>-->
   <br>
-  <h4>Selecciona tu Código</h4>
-  <textarea id="offsetNumber" placeholder="Ingresa un número" rows="1"></textarea></center>
+<!--  <h5>Selecciona tu Código</h5> -->
+  <p id="note">Nota:<br>No olvides conservar tu número para lograr decifrar en un futuro</p>
+  <input type="number" id="offsetNumber" placeholder="Ingresa un número"  rows="1"> </center>
+  <br>
+  <input type="text" id="input" placeholder="Ingresa tu texto aquí">
+  <br>
+  <br>
+  <button id="cifrar">Cifrar</button> <button id="decifrar">Decifrar</button> 
 
   
  <br>
-</div>  
+</div> 
 <!----------------------------------------------------------------------------------------------------->    
-<!--Pantalla 3-->    
+<!--Pantalla 3 -->  
 
-<div id="screen3">
-  <br>
-  <br>
- <center>
-    <textarea type="text" id="input" placeholder="Ingresa tu texto aquí"></textarea>
-    <button id="cifrar">Cifrar</button> <button id="decifrar">Decifrar</button> 
+<div id="screen3" style="display: none"> 
+
+ <center><p class="big">¡Y aquí tienes!</p>
+  <img src="/home/laboratoria/G-Lab/proyect1/safe.png" width="40%">
     <br>
     <br>
-    <textarea id="result" type="text" placeholder="Aqui aparecera el texto cifrado" disabled="disabled"></textarea>
+    <input id="output" type="text" placeholder="Aqui aparecera el texto cifrado"> <br> <button id="copyButton">Copiar</button>
+    <br>
+    <br>
+    <br>
+    <button id="welcome">Salir</button> <button id="clean">Nuevo Mensaje</button>
    <!-- <button id="descifrar">Descifrar</button>-->
  </center>
 </div>
