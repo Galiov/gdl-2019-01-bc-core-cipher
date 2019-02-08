@@ -1,7 +1,12 @@
 body {
-  background-image: url("/home/laboratoria/G-Lab/proyect1/letters.jpg");
+  background-image: url("https://i.postimg.cc/0QyP1bqh/letters.jpg");
+/*  background-repeat: repeat-x;
   height:100; 
-  min-height:100;
+  min-height:100;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 div {
