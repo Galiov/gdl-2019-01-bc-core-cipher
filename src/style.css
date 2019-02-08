@@ -35,7 +35,7 @@ button {
 }
 #note{
   font-size: 0.75em;
-  color: tomato;
+  color: rgba(176, 4, 53);
 }
 
 #input,#output {
