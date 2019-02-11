@@ -1,4 +1,4 @@
-#FREE, FUN, ENCODING.
+# FREE, FUN, ENCODING.
 
 
 ## Definición del producto
@@ -11,7 +11,9 @@
  
 ### Bases del proyecto
 
-El [cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
+#### Cifrado César
+
+El cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
 batalla.
 
