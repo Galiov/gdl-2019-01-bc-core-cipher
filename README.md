@@ -1,14 +1,15 @@
-
 #FREE, FUN, ENCODING.
 
 
-### Definición del producto
+## Definición del producto
 
 -Este producto está hecho para todas aquellas personas que deseen implementar en sus conversaciones diarias textos cifrados para mantener una privacidad en otro nivel. 
+
 -El objetivo principal es lograr obtener el placer y diversión de sorprender a sus amigos y/o compañeros con letras ordenadas sin un sentido aparente ocultando gran significado. En pocas palabras, pasar un rato agradable.
+
 -Es una aplicación de ocio. Una aplicación sencilla con pasos simples que en cualquier momento y lugar puedes ingresar y hacer uso de ella.
  
-## Bases del proyecto
+### Bases del proyecto
 
 El [cifrado César es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
 César lo usaba para enviar órdenes secretas a sus generales en los campos de
@@ -34,15 +35,15 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-### Sobre el diseño 
+## Sobre el diseño 
 
 El diseño está basado en un punto fundamental: El Usuario.
 
-## ¿Quién es mi usuario?
+### ¿Quién es mi usuario?
 
 Está aplicación está dirigida al público en general. Niños, jóvenes y adultos que deseen hacer uso de herramientas para implementar en sus mensajes cotidianos un aire fresco y divertido. 
 
-## Proceso de Creación
+### Proceso de Creación
 
 Primero que nada hice un sketch inicial para determinar el flujo de la aplicación. Decidí utilizar cinco 'vistas' sin embargo durante el proceso fui sintetizando las necesidades junto con el flujo y me di cuenta de que podía prescindir de un par. Así que el resultado final consta de tres vistas. 
 
